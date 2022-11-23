@@ -1,0 +1,100 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Merriweather:wght@300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-family: "Merriweather", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+header {
+    margin: 0;
+    background-color: #2D3945;
+    color: #fff;
+    text-align: center;
+
+}
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 16px;
+    margin: auto;
+    padding: 20px;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto 100px;
+}
+fieldset {
+    border: none;
+    padding: 0; 
+}
+input, select, textarea, button {
+    border: none;
+    border-radius: 3px;
+    background-color: #EEF0F1
+}
+input::placeholder {
+    font-style: italic;
+    text-align: right;
+    opacity: .5;
+}
+input:hover, select:hover, textarea:hover, button:hover {
+    background-color: #e9ecee;
+}
+select:invalid { 
+    opacity: .5;
+}
+label {
+    font-size: .75em;
+    font-weight: bold;
+}
+textarea {
+    min-height: 100px;
+}
+
+/* ================================= 
+  Layout Styles
+==================================== */
+.intro {
+    text-align: center;
+    margin: 40px auto; 
+}
+fieldset {
+    margin: 30px 0px 10px;
+}
+legend {
+    font-size: 1.4rem;
+    width: 100%;
+    padding: 30px 0 20px;
+    border-top: solid 2px #000;
+}
+.contact-fieldset input, select, textarea, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 20px;
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media screen and (min-width: 768px) {
+    .contact-fieldset label {
+        /* Uniform size & alignment */
+        display: inline-block;
+        width: 40%;
+    }
+    .contact-fieldset input, select {
+        width: 60%;
+    }
+}
+ 
