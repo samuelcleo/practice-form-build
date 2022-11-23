@@ -57,6 +57,9 @@ label {
 textarea {
     min-height: 100px;
 }
+button {
+    
+}
 
 /* ================================= 
   Layout Styles
@@ -95,6 +98,9 @@ button {
     }
     .contact-fieldset input, select {
         width: 60%;
+    }
+    #zipcode {
+        width: 20%;
     }
 }
  
