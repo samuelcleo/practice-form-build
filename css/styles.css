@@ -37,7 +37,7 @@ fieldset {
 input, select, textarea, button {
     border: none;
     border-radius: 3px;
-    background-color: #EEF0F1
+    background-color: #EEF0F1;
 }
 input::placeholder {
     font-style: italic;
@@ -45,7 +45,7 @@ input::placeholder {
     opacity: .5;
 }
 input:hover, select:hover, textarea:hover, button:hover {
-    background-color: #e9ecee;
+    background-color: #f8f8f8;
 }
 select:invalid { 
     opacity: .5;
@@ -58,7 +58,12 @@ textarea {
     min-height: 100px;
 }
 button {
-    
+    background-color: #4EBBB5;
+    color: #fff;
+    font-weight: 400;
+}
+button:hover {
+    background-color: #0EB4B9
 }
 
 /* ================================= 
