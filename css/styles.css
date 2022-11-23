@@ -51,6 +51,7 @@ select:invalid {
     opacity: .5;
 }
 label {
+    margin: 20px auto;
     font-size: .75em;
     font-weight: bold;
 }
@@ -85,9 +86,11 @@ legend {
 .contact-fieldset input, select, textarea, button {
     width: 100%;
     margin: 10px 0;
-    padding: 10px;
+    padding: 14px 18px;
 }
-
+.newsletter-fieldset label {
+    margin: 40px auto;
+}
 button {
     padding: 20px;
 }
