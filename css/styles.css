@@ -56,7 +56,6 @@ select:invalid {
     opacity: .5;
 }
 label {
-    padding: 20px 0;
     font-size: .75em;
     font-weight: bold;
 }
@@ -114,6 +113,7 @@ button, textarea {
     .contact-fieldset label {
         /* Uniform size & alignment */
         flex-basis: 40%;
+        padding: 20px 0;
     }
     #zipcode {
         flex: 0 1 25%;
