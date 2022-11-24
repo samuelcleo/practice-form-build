@@ -46,7 +46,7 @@ input:focus, select:focus, textarea:focus {
     outline: solid #4EBBB5 3px;
 }
 input:hover, select:hover, textarea:hover, button:hover {
-    background-color: #f8f8f8;
+    background-color: #eef2f2;
 }
 select:invalid { 
     opacity: .5;
