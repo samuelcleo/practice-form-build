@@ -55,6 +55,7 @@ input::placeholder {
 }
 input:focus, select:focus, textarea:focus {
     outline: solid #4EBBB5 3px;
+    transition: .125s;
 }
 input:hover, select:hover, textarea:hover, button:hover {
     background-color: #eef2f2;
@@ -97,13 +98,13 @@ legend {
     display: inline-block;
     font-size: 1.4rem;
 }
+.contact-fieldset {
+    padding-bottom: 30px;
+}
 .contact-fieldset input, select, textarea, button {
     flex-grow: 1;
     margin: 10px 0;
     padding: 14px 18px;
-}
-.contact-fieldset label {
-    flex-basis: 100%;
 }
 .contact-fieldset label {
     flex-basis: 100%;
@@ -123,16 +124,15 @@ button, textarea {
 @media screen and (min-width: 768px) {
     .contact-fieldset label {
         /* Uniform size & alignment */
-        flex-basis: 40%;
+        flex-basis: 30%;
         padding: 20px 0;
     }
-    .contact-fieldset input {
-        flex-basis: 40%
+    .contact-fieldset input, select {
+        flex-basis: 70%
     }
     #zipcode {
-        flex-basis: 0px;
-        width: 20%;
-        margin-right: auto;
+        flex-basis: auto;
+        width: 17.5%;
     }
 }
  
