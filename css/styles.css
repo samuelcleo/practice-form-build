@@ -29,6 +29,11 @@ h1 {
 form {
     margin: 0 auto 100px;
 }
+legend {
+    border-top: solid #000 2px;
+    padding-top:25px;
+    width: 100%;
+}
 fieldset {
     border: none;
 }
