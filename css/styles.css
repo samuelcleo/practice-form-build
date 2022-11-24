@@ -36,6 +36,13 @@ legend {
 fieldset {
     border: none;
 }
+#legend-border::before {
+    border-top: solid 5px #2b313a;
+    content: "";
+    display: block;
+    position: relative;
+    top: -51px;
+}
 input, select, textarea, button {
     border: none;
     border-radius: 3px;
@@ -98,12 +105,16 @@ legend {
 .contact-fieldset label {
     flex-basis: 100%;
 }
+.contact-fieldset label {
+    flex-basis: 100%;
+}
 button, textarea {
     width: 100%;
     padding: 20px;
 }
 #zipcode {
-    flex: 0 1 50%;
+    flex-grow: 0;
+    width: 50%;
 }
 /* ================================= 
   Media Queries
@@ -115,8 +126,12 @@ button, textarea {
         flex-basis: 40%;
         padding: 20px 0;
     }
+    .contact-fieldset input {
+        flex-basis: 40%
+    }
     #zipcode {
-        flex: 0 1 25%;
+        flex-basis: 0px;
+        width: 20%;
         margin-right: auto;
     }
 }
